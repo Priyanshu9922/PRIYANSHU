@@ -1,0 +1,84 @@
+body{
+    background: url("https://burst.shopifycdn.com/photos/elaborate-building-interior-with-light-teal-walls.jpg?width=1200&format=pjpg&exif=1&iptc=1");
+    background-repeat: cover;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    position: relative;
+    top: 100px;
+    left: 630px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    background-color: white;
+    border-radius:8px;
+    margin: 2px;
+    padding: 7px;
+}
+.form input{
+    width: 220px;
+    height: 31px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 28px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+
+}
+
+.btnn{
+    width: 220px;
+    height: 35px;
+    background: #ff7200;
+    border:none;
+    margin-top: 28px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.form.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 18px;
+    text-align: center;
+
+}
+.form.link a{
+    text-decoration: none;
+    color: orange;
